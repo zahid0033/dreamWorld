@@ -1,0 +1,602 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    outline: none;
+    overflow-x: hidden;
+}
+.white{
+    color: #ffffff;
+}
+.title{
+    text-transform: uppercase;
+}
+.mar-top-3 {
+    margin-top: 2.5em;
+}
+img{
+    width: 100%;
+}
+.btn{
+    font-weight: 900;
+}
+marquee{
+    font-size: 20px;
+    font-weight: 700;
+    background: linear-gradient(45deg, transparent, #a3cef0, transparent);
+}
+.top_bar_link{
+    padding: 5px;
+}
+.mar-top-fixed-nav{
+    margin-top: 120px;
+}
+.container{
+    max-width: 1100px !important;
+}
+h1{
+    color: #5a5a5a;
+}
+.heading{
+    position: relative;
+    font-size: 3em;
+    color: #f04823;
+    text-shadow: 1px 1px 1px #000000;
+
+    font-weight: 500;
+    line-height: 1.2;
+}
+.heading_left_design{
+    position: absolute;
+    left: -140px;
+    top: 50%;
+    margin-top: -2px;
+    height: 4px;
+    width: 110px;
+    background: linear-gradient(134.72deg, rgb(240, 74, 34) 0%, rgb(245, 121, 31) 100%);
+}
+.heading_right_design{
+    position: absolute;
+    right: -50%;
+    top: 50%;
+    margin-top: -2px;
+    height: 4px;
+    width: 40%;
+    background: linear-gradient(134.72deg, rgb(240, 74, 34) 0%, rgb(245, 121, 31) 100%);
+ }
+.heading h2{
+    color: #5a5a5a;
+}
+.content_padding{
+    padding: 1em 10em 5em 5em;
+}
+
+/*   ********** nav start **********   */
+.logo{
+    width: 100%;
+    height: 100%;
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(1px 1px 0px #ffffff);
+    /*padding: 1em 0;*/
+}
+.bg-nav {
+    background: linear-gradient(45deg, #fffefd, #25c1c1, #329fb1, #22a5f2, #2475ee);
+}
+.fixed {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 111;
+    transition: 0.5s;
+    box-shadow: 1px 12px 20px black;
+}
+.active_nav {
+    background: #113054;
+    border-radius: 12px;
+}
+.active_nav .nav_item_design{
+    color: #ffffff  !important;
+}
+.navbar{
+    transition: 0.5s;
+}
+.navbar-nav {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    transition: 0.5s;
+}
+
+.nav-style{
+    margin-left: auto !important;
+}
+.social_icon{
+    font-size: 22px;
+    color: #ffffff  !important;
+    text-shadow: 3px 3px 3px #000000;
+}
+.social_icon_two{
+    font-size: 22px;
+    color: #DD2326;
+    display: -webkit-inline-box;
+}
+.nav_item_design{
+    color: #000000 !important;
+    font-size: 15px !important;
+    font-weight: 700;
+    padding: 0 10px !important;
+}
+.dropdown-item:hover{
+    background: #f15122;
+    color: #ffffff !important;
+}
+
+.dropdown-menu {
+    padding: 0;
+    margin: 2.3em 0 0;
+}
+/*   ********** nav end **********   */
+/*   ********** home start **********   */
+.horizontal-slider.slick-dotted, .vertical-slider.slick-dotted {
+    margin-bottom: 0;
+}
+.horizontal-slider {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+.horizontal-slider .slide .slide-content {
+    border: 2.5em solid #fff;
+    margin: 5em;
+}
+.vertical-slider {
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+.vertical-slider > .slick-dots {
+    bottom: auto;
+    left: 0.5em;
+    padding: 0;
+    right: auto;
+    top: 50%;
+    transform: translateY(-50%);
+    width: auto;
+}
+.vertical-slider > .slick-dots li {
+    display: block;
+    margin: 0 0.125em;
+}
+.vertical-slider > .slick-dots li button {
+    padding: 0.125em;
+}
+.vertical-slider .slide {
+    height: 100vh;
+}
+.slide {
+    display: inline-block;
+}
+.vertical-slide:nth-child(1) {
+    background: url(https://picsum.photos/id/655/1200/700);
+    background-position: 0 12%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    /*background-color: indianred;*/
+}
+.vertical-slide:nth-child(2) {
+    background: url("../images/random/bg1.jpg");
+    background-position: 0 12%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-color: #015494;
+}
+.vertical-slide:nth-child(3) {
+    background: url("../images/random/map-dots-trans.svg");
+    /*background-color: burlywood;*/
+}
+.vertical-slide:nth-child(4) {
+    background-color: #282828;
+}
+.vertical-slide:nth-child(5) {
+    background: url("../images/random/map-dots-trans.svg");
+    background-position: 0 12%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    /*background-color: burlywood;*/
+}
+.slide-content {
+    display: block;
+    position: relative;
+}
+.slick-dotted.slick-slider {
+    margin-bottom: 0 !important;
+}
+.slick-dots {
+    bottom: 0;
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%);
+    width: auto;
+}
+.slick-dots li.slick-active button::before {
+    color: #fff;
+}
+.slick-prev, .slick-next {
+    z-index: 10;
+}
+.slick-next {
+    right: 35px;
+}
+.slick-prev {
+    left: 35px;
+}
+/*   ********** home end **********   */
+/*   ********** home about start **********   */
+.aboutus-section {
+    padding: 90px 0;
+}
+.aboutus-title {
+    /*font-size: 30px;*/
+    letter-spacing: 0;
+    line-height: 32px;
+    margin: 0 0 39px;
+    padding: 0 0 11px;
+    position: relative;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+/*.aboutus-title::after {*/
+/*    background: #fdb801 none repeat scroll 0 0;*/
+/*    bottom: 0;*/
+/*    content: "";*/
+/*    height: 2px;*/
+/*    left: 0;*/
+/*    position: absolute;*/
+/*    width: 54px;*/
+/*}*/
+.aboutus-text {
+    color: #ffffff;
+    font-size: 13px;
+    line-height: 22px;
+    margin: 0 0 35px;
+}
+
+.aboutus-more {
+    border: 1px solid #fdb801;
+    border-radius: 25px;
+    color: #fdb801;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0;
+    padding: 7px 20px;
+    text-transform: uppercase;
+}
+.feature .feature-box .iconset {
+    background: #07080a none repeat scroll 0 0;
+    float: left;
+    position: relative;
+    width: 18%;
+    border-radius: 100%;
+}
+.feature .feature-box .iconset::after {
+    background: #fdb801 none repeat scroll 0 0;
+    content: "";
+    height: 150%;
+    left: 43%;
+    position: absolute;
+    top: 100%;
+    width: 1px;
+}
+
+.feature .feature-box .feature-content h4 {
+    color: #0f0f0f;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 22px;
+    margin: 0 0 5px;
+}
+
+
+.feature .feature-box .feature-content {
+    float: left;
+    padding-left: 28px;
+    width: 78%;
+}
+.feature .feature-box .feature-content h4 {
+    color: #09f526;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 22px;
+    margin: 0 0 5px;
+}
+.feature .feature-box .feature-content p {
+    color: #ffffff;
+    font-size: 13px;
+    line-height: 22px;
+}
+.icon {
+    color: #f4b841;
+    padding: 0px;
+    font-size: 40px;
+    border: 1px solid #fdb801;
+    border-radius: 100px;
+    color: #fdb801;
+    font-size: 28px;
+    height: 70px;
+    line-height: 70px !important;
+    text-align: center;
+    width: 70px;
+}
+/*   ********** home about end **********   */
+/*   ********** home sister start **********   */
+.companies img{
+    width: 100%;
+    height: 50%;
+}
+.companies span{
+    font-size: 15px;
+    font-weight: 700;
+}
+/*   ********** home sister end **********   */
+
+
+
+/*   ********** footer start **********   */
+
+.footer_design{
+    padding: 3em;
+    background: linear-gradient(45deg, #ee2c24cf, #f26122f7, #fbaa19c9, #ffdf00ba);
+}
+.footer_design ul{
+    list-style: none;
+}
+.footer_design ul li{
+    width: auto;
+    line-height: 25px;
+    margin-bottom: 15px;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.footer_design ul li span i{
+    width: 70px;
+    height: 30px;
+    color: #ffffff;
+    padding: 6px;
+    text-shadow: 2px 2px 3px #000000;
+}
+.footer_text{
+    font-size: 18px;
+    font-weight: 700;
+}
+.imo_icon{
+height: 17px;
+}
+.social_icon_padding{
+margin-top: 18px;;
+}
+.footer_img{
+height:50px;
+}
+.contact_icon{
+float: right;
+}
+.footer_txt{
+color: #ffffff;
+font-weight: 700;
+text-shadow: 2px 2px 6px #000000;
+}
+.foo_ql{
+text-decoration: none !important;
+color: black;;
+}
+
+/*   ********** footer end **********   */
+
+
+/*contact form design start here*/
+.feedback-input {
+    color:white;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight:500;
+    font-size: 18px;
+    border-radius: 5px;
+    line-height: 22px;
+    background-color: transparent;
+    border:2px solid #CC6666;
+    transition: all 0.3s;
+    padding: 13px;
+    margin-bottom: 15px;
+    width:100%;
+    box-sizing: border-box;
+    outline:0;
+}
+
+.feedback-input:focus { border:2px solid #CC4949; }
+
+textarea {
+    height: 150px;
+    line-height: 150%;
+    resize:vertical;
+}
+
+.submit {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    width: 100%;
+    background:#f04823;
+    border-radius:5px;
+    border:0;
+    cursor:pointer;
+    color:white;
+    font-size:24px;
+    padding-top:10px;
+    padding-bottom:10px;
+    transition: all 0.3s;
+    margin-top:-4px;
+    font-weight:700;
+}
+.submit:hover { background:#CC4949; }
+/*   Contact Form   */
+.contact_list{
+
+}
+.contact_list ul{
+    list-style: none;
+}
+.contact_list ul li {
+    width: auto;
+    line-height: 25px;
+    margin-bottom: 15px;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.contact_list ul li span{
+    font-weight: 700;
+    color: #565656e0;
+}
+.contact_list ul li span i{
+    width: 70px;
+    height: 30px;
+    color: #f04823;
+    padding: 6px;
+    text-shadow: 1px 1px 1px #000000;
+}
+.messenger a{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    text-decoration: none;
+    z-index: 11111;
+}
+  /**************** accordion use in career at japan start *******************  */
+.card{
+    background: none;
+}
+[data-toggle="collapse"] i:before {
+    content: "\f068";
+}
+[data-toggle="collapse"].collapsed i:before {
+    content: "\f067";
+}
+#accordion .card-header {
+    margin-bottom: 8px;
+}
+#accordion .accordion-title {
+    position: relative;
+    display: block;
+    padding: 8px 0 8px 50px;
+    /*background: #213744;*/
+    background: linear-gradient(45deg, #f26421, #f9a11a);
+    border-radius: 8px;
+    overflow: hidden;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    width: 100%;
+    text-align: left;
+    transition: all 0.4s ease-in-out;
+}
+#accordion .accordion-title i {
+    position: absolute;
+    width: 40px;
+    height: 100%;
+    left: 0;
+    top: 0;
+    color: #fff;
+    background: #f36d20;
+    text-align: center;
+    border-right: 1px solid transparent;
+}
+#accordion .accordion-title:hover {
+    padding-left: 60px;
+    /*background: #213744;*/
+    background: linear-gradient(45deg, #f26421, #f9a11a);
+    color: #fff;
+}
+#accordion .accordion-title:hover i {
+    border-right: 1px solid #fff;
+}
+#accordion .accordion-body {
+    padding: 30px 30px;
+}
+#accordion .accordion-body ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+#accordion .accordion-body li {
+    padding-left: 1.2rem;
+    text-indent: -1.2rem;
+}
+#accordion .accordion-body li:before {
+    /*content: "\f10a";*/
+    padding-right: 5px;
+    font-family: "Flaticon";
+    font-size: 16px;
+    font-style: normal;
+    color: #213744;
+}
+/**************** accordion use in career at japan end *******************  */
+.dropdown-divider{
+    margin: 0;
+}
+
+/**************** isotope gallery start *******************  */
+/* .container{ border: 2px solid green }
+.grid-item{ border: 2px solid red; padding: 20px;}
+.grid{ border: 1px solid blue}*/
+.filters ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    border-bottom: 2px solid #D9D9D9;
+    margin: 30px 15px
+}
+.filters ul li{
+    display: inlnie-block;
+    text-align: center;
+    margin-right: 12px;
+    padding: 0 5px 8px 5px;
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
+    position: relative;
+    margin-bottom: -2px;
+    color: #777;
+    transition: 0.3s;
+    text-transform: uppercase;
+}
+.filters ul li:hover{
+    color: #EB2D3A;
+}
+.filters ul li.is-checked{
+    border-bottom: 2px solid #EB2D3A;
+}
+.filters ul li:last-child{
+    margin-right: 0;
+}
+
+
+.grid .grid-item img{
+    background: #EEEEEE;
+    height: 150px;
+    line-height: 150px;
+    color: white;
+    font-size: 3em;
+    text-align: center;
+    margin-bottom: 30px;
+}
+/****************  isotope gallery end *******************  */
