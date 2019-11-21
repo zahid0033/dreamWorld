@@ -1,6 +1,6 @@
 
     <nav class="navbar fixed navbar-expand-lg navbar-light nav-bar bg-nav" style="height: 70px">
-        <a href="{{ route('pages.index') }}" ><img class="logo" src="{{ asset('assets/images/logo/dreamworld-logo.png') }}" alt="logo"/></a>
+        <a href="{{ route('pages.index') }}" ><img class="logo" src="{{ asset('assets/images/logo/Dream-world-corporation.png') }}" alt="logo"/></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>

@@ -2,7 +2,7 @@
     <title>@yield('title')</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" type="image/jpg" href="{{ asset('assets/images/logo/logo2.png') }}"/>
+    <link rel="icon" type="image/jpg" href="{{ asset('assets/images/logo/Dream-world-corporation.png') }}"/>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="{{ asset('assets/css/custom_design.css') }}"/>
     <link rel="stylesheet" href="{{ asset('assets/css/responsive.css') }}"/>
