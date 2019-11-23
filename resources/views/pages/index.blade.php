@@ -43,7 +43,7 @@
                 </div>
             </div>
             <div class="slide vertical-slide">
-                <div class="slide-content" style="background: #27272794;height: 100vh">
+                <div class="slide-content" style="background: #3853a45e;height: 100vh">
                     <h1 class="title p-5 text-center white" style="margin-top: 35px">Welcome to <span style="color: #3853a4;text-shadow: 0px 1px 5px #fdfdfd;">Dream World</span></h1>
 
                     <div class="container owners">
@@ -148,7 +148,7 @@
                                 </div>
                                 <div class="mb-5">
                                     <div class="row">
-                                        <div class="col-3 col-md-3"><img src="{{ asset('assets/images/logo/company3.png') }}" alt=""></div>
+                                        <div class="col-3 col-md-3"><img src="{{ asset('assets/images/logo/Dream-Multi-fabs-ltd.png') }}" alt=""></div>
                                         <div class="col-9 col-md-9">
                                             <span class="title">Dream Multi Fabs ltd.</span>
                                             <p>Dream world corporation is the largest the company </p>
@@ -206,7 +206,7 @@
                                             <span class="title">Dream LPG & CNG Conversion Workshop</span>
                                             <p>Dream world corporation is the largest the company </p>
                                         </div>
-                                        <div class="col-3 col-md-3"><img src="{{ asset('assets/images/logo/company3.png') }}" alt=""></div>
+                                        <div class="col-3 col-md-3"><img src="{{ asset('assets/images/logo/Dream-world-corporation-1.png') }}" alt=""></div>
                                     </div>
                                 </div>
                             </div>

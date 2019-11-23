@@ -11,7 +11,7 @@
                     <a class="nav-link nav_item_design" href="{{ route('pages.index') }}">Home</a>
                 </li>
                 <li class="nav-item  @yield('about')">
-                    <a class="nav-link nav_item_design" href="">About Us</a>
+                    <a class="nav-link nav_item_design" href="{{ route('pages.about') }}">About Us</a>
                 </li>
                 <li class="nav-item  @yield('lpg_station')">
                     <a class="nav-link nav_item_design" href="">Our Companies</a>

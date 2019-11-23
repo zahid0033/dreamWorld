@@ -1,49 +1,50 @@
 <div class="footer_design mt-5 margin_top">
         <div class="container">
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-3">
+                    <img src="{{ asset('assets/images/logo/Dream-world-corporation.png') }}" alt="">
+                    <p class="mt-3">Israt Tower, 6 Purana Paltan, Lift-6, Level-6, Dhaka-1000</p>
+                </div>
+                <div class="col-md-3">
 
-                    <h3 class="about_us_text footer_txt">Addresses</h3>
-                    <div class="pt-3">
-                        <h5>Israt Tower, 6 Purana Paltan, Lift-6, LEvel-6, Dhaka-1000</h5>
-                    </div>
+                    <h5 class="about_us_text footer_txt mb-3">Companies</h5>
+                    <ul>
+                        <li>PIXEL ENGINEERING & CONSULTANCY LTD.</li>
+                        <li>DREAM MULTI FABS LTD.</li>
+                        <li>DREAM STEEL BD.</li>
+                        <li>PIXEL ENGINEERING & CONSULTANCY LTD.</li>
+                        <li>DREAM ENERGY</li>
+                        <li>DREAM LPG & CNG CONVERSION WORKSHOP</li>
+                    </ul>
 
                 </div>
-                <div class="col-md-4">
-                    <div class="row mt-5">
-                        <div class="col-md-12 mt-3 mb-5 text-center">
-                            <span><i class="fas fa-envelope-open-text" style="color: white;margin-right: 1em;text-shadow: 2px 2px 3px #000000;"></i><span class="footer_text">dreamworld@gmail.com</span></span>
-                        </div>
-                        <div class="col-md-12 text-center">
-                            <a class="nav-link social_icon social_icon_two" href="" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                            <a class="nav-link social_icon social_icon_two" href="" target="_blank"><i class="fab fa-youtube"></i></a>
-                            <a class="nav-link social_icon social_icon_two" href="" target="_blank"><i class="fab fa-linkedin"></i></a>
-                        </div>
-                    </div>
+                <div class="col-md-3">
+                    <h5 class="about_us_text footer_txt mb-3">Quick Links</h5>
+                    <ul>
+                        <li>Home</li>
+                        <li>About</li>
+                        <li>Our Companies</li>
+                        <li>Gallery</li>
+                        <li>Career</li>
+                        <li>Contact Us</li>
+                    </ul>
                 </div>
-                <div class="col-md-4">
-                    <h3 class="about_us_text footer_txt mb-3">Contact</h3>
+                <div class="col-md-3">
+                    <h5 class="about_us_text footer_txt mb-3">Contact</h5>
+
                     <div class="pt-3">
                         <ul>
-                            <li>
-                                <span><i class="fas fa-phone"></i></span>
-                                <span class="footer_text">02-55110746</span>
-                            </li>
-                            <li>
-                                <span><i class="fas fa-mobile-alt"></i></span>
-                                <span class="footer_text">01715-731054</span>
-                            </li>
-                            <li>
-                                <span><i class="fas fa-mobile-alt"></i></span>
-                                <span class="footer_text">01978-665140-50</span>
-                            </li>
-                            <li>
-                                <span><i class="fas fa-mobile-alt"></i></span>
-                                <span class="footer_text">01978-665153-56</span>
-                            </li>
+                            <li><span><i class="fas fa-phone"></i></span>02-55110746</li>
+                            <li><span><i class="fas fa-envelope-open-text"></i></span>02-55110746</li>
                         </ul>
                     </div>
+                    <div class="col-md-12 text-center">
+                        <a class="nav-link social_icon social_icon_two" href="" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a class="nav-link social_icon social_icon_two" href="" target="_blank"><i class="fab fa-youtube"></i></a>
+                        <a class="nav-link social_icon social_icon_two" href="" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    </div>
                 </div>
+
 
             </div>
 

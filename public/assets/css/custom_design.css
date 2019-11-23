@@ -10,6 +10,9 @@ body {
 .title{
     text-transform: uppercase;
 }
+.mar-top-72{
+    margin-top: 72px;
+}
 .mar-top-3 {
     margin-top: 2.5em;
 }
@@ -244,7 +247,7 @@ h1{
 }
 .slick-dots li button:before {
     opacity: 1 !important;
-    color: #fff !important;
+    color: #f00  !important;
     border: 1px solid #060606;
     border-radius: 100%;
 }
@@ -395,6 +398,8 @@ h1{
 .companies img{
     width: 100%;
     height: 50%;
+    -webkit-filter: drop-shadow(1px 1px 1px #000);
+    filter: drop-shadow(1px 1px 1px #000000);
 }
 .companies span{
     font-size: 15px;
@@ -432,12 +437,18 @@ blockquote p {
     padding: 3em;
     background: linear-gradient(45deg, #3853a4, #fffefd);
 }
+.footer_design img{
+    width: 100px;
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(0px 0px 4px #ffffff);
+}
 .footer_design ul{
-    list-style: none;
+    /*list-style: square;*/
+    padding-left: 0;
 }
 .footer_design ul li{
     width: auto;
-    line-height: 25px;
+    line-height: 15px;
     margin-bottom: 15px;
     position: relative;
     display: -webkit-box;
@@ -445,15 +456,15 @@ blockquote p {
     display: flex;
 }
 .footer_design ul li span i{
-    width: 70px;
+    width: 50px;
     height: 30px;
     color: #ffffff;
     padding: 6px;
     text-shadow: 2px 2px 3px #000000;
 }
 .footer_text{
-    font-size: 18px;
-    font-weight: 700;
+    font-size: 15px;
+    /*font-weight: 700;*/
 }
 .imo_icon{
 height: 17px;
