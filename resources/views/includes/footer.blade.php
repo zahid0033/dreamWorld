@@ -43,6 +43,18 @@
                         <a class="nav-link social_icon social_icon_two" href="" target="_blank"><i class="fab fa-youtube"></i></a>
                         <a class="nav-link social_icon social_icon_two" href="" target="_blank"><i class="fab fa-linkedin"></i></a>
                     </div>
+                    <div class="mt-3">
+                        <form>
+                            <div class="row">
+                                <div class="col">
+                                    <input type="email" class="form-control" placeholder="Email">
+                                </div>
+                                <div class="col">
+                                    <input type="submit" class="btn btn-success" value="Subscribe">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
                 </div>
 
 

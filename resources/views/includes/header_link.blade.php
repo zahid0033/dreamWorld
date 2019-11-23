@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/css/swiper.min.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
+    {{--    AOS On scroll animation  --}}
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
 
@@ -24,6 +26,8 @@
     <script src="{{ asset('assets/js/owl.carousel.min.js') }}"></script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/js/swiper.min.js"></script>
+    {{--    AOS On scroll animation  --}}
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"></script>
 

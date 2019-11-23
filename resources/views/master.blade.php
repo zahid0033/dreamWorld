@@ -13,6 +13,8 @@
 
 <script>
 
+    AOS.init();
+
     $(document).ready(function(){
         $(window).bind('scroll', function() {
             var navHeight = $('.top_bar').height();

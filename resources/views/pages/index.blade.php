@@ -73,7 +73,7 @@
             </div>
             <div class="slide vertical-slide">
                 <div class="slide-content p-5">
-                    <h1 class="aboutus-title p-5 text-center">About Us</h1>
+                    <h1 class="aboutus-title p-5 title text-center">About Us</h1>
                     <div class="container p-5">
                         <div class="row">
                             <div class="col-md-3 col-sm-6 col-xs-12">
@@ -139,8 +139,8 @@
                             <div class="col-md-4">
                                 <div class="mb-5">
                                     <div class="row">
-                                        <div class="col-3 col-md-3"><img src="{{ asset('assets/images/logo/company1.png') }}" alt=""></div>
-                                        <div class="col-9 col-md-9">
+                                        <div class="col-4 col-md-4"><img src="{{ asset('assets/images/logo/company1.png') }}" alt=""></div>
+                                        <div class="col-8 col-md-8">
                                             <span class="title">Pixel Engineering & Consultancy LTD.</span>
                                             <p>Dream world corporation is the largest the company </p>
                                         </div>
@@ -148,8 +148,8 @@
                                 </div>
                                 <div class="mb-5">
                                     <div class="row">
-                                        <div class="col-3 col-md-3"><img src="{{ asset('assets/images/logo/Dream-Multi-fabs-ltd.png') }}" alt=""></div>
-                                        <div class="col-9 col-md-9">
+                                        <div class="col-4 col-md-4"><img src="{{ asset('assets/images/logo/Dream-Multi-fabs-ltd.png') }}" alt=""></div>
+                                        <div class="col-8 col-md-8">
                                             <span class="title">Dream Multi Fabs ltd.</span>
                                             <p>Dream world corporation is the largest the company </p>
                                         </div>
@@ -158,8 +158,8 @@
 
                                 <div class="mb-5">
                                     <div class="row">
-                                        <div class="col-3 col-md-3"><img src="{{ asset('assets/images/logo/company2.png') }}" alt=""></div>
-                                        <div class="col-9 col-md-9">
+                                        <div class="col-4 col-md-4"><img src="{{ asset('assets/images/logo/company2.png') }}" alt=""></div>
+                                        <div class="col-8 col-md-8">
                                             <span class="title">Dream Steel Bd.</span>
                                             <p>Dream world corporation is the largest the company </p>
                                         </div>
@@ -171,7 +171,7 @@
 
                                 </div>
                                 <div class="text-center" style="margin-top: 6em">
-                                    <img src="{{ asset('assets/images/logo/Dream-world-corporation.png') }}" style="width: 20%;" alt="">
+                                    <img src="{{ asset('assets/images/logo/Dream-world-corporation.png') }}" style="width: 50%;" alt="">
                                     <div>
                                         <span class="title">Dream World Corporation</span>
                                         <p>Dream world corporation is the largest the company </p>
@@ -184,34 +184,70 @@
                             <div class="col-md-4">
                                 <div class="mb-5" style="text-align: right">
                                     <div class="row">
-                                        <div class="col-9 col-md-9">
-                                            <span class="title">Pixel Engineering & Consultancy LTD.</span>
+                                        <div class="col-8 col-md-8">
+                                            <span class="title">Dream LPG BD.</span>
                                             <p>Dream world corporation is the largest the company </p>
                                         </div>
-                                        <div class="col-3 col-md-3"><img src="{{ asset('assets/images/logo/company3.png') }}" alt=""></div>
+                                        <div class="col-4 col-md-4"><img src="{{ asset('assets/images/logo/logo2.png') }}" alt=""></div>
                                     </div>
                                 </div>
                                 <div class="mb-5" style="text-align: right">
                                     <div class="row">
-                                        <div class="col-9 col-md-9">
+                                        <div class="col-8 col-md-8">
                                             <span class="title">Dream Energy</span>
                                             <p>Dream world corporation is the largest the company </p>
                                         </div>
-                                        <div class="col-3 col-md-3"><img src="{{ asset('assets/images/logo/company4.png') }}" alt=""></div>
+                                        <div class="col-4 col-md-4"><img src="{{ asset('assets/images/logo/company4.png') }}" alt=""></div>
                                     </div>
                                 </div>
                                 <div class="mb-5" style="text-align: right">
                                     <div class="row">
-                                        <div class="col-9 col-md-9">
+                                        <div class="col-8 col-md-8">
                                             <span class="title">Dream LPG & CNG Conversion Workshop</span>
                                             <p>Dream world corporation is the largest the company </p>
                                         </div>
-                                        <div class="col-3 col-md-3"><img src="{{ asset('assets/images/logo/Dream-world-corporation-1.png') }}" alt=""></div>
+                                        <div class="col-4 col-md-4"><img src="{{ asset('assets/images/logo/Dream-world-corporation-1.png') }}" alt=""></div>
                                     </div>
                                 </div>
                             </div>
 
 
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slide vertical-slide">
+                <div class="slide-content" style="background: #050608c4;height: 100vh;">
+
+                    <div class="container history">
+                        <div class="row">
+                            <div class="col-md-8">
+                                <h1 class="white">Our History</h1>
+                                <p class="white">In olden times dating back to late sixties of the last century during the erstwhile Pakistan
+                                    period the ancestors of the present Directors of the Group started trading & contractual business on a small
+                                    scale at their native district Rajshahi situated at the northern part of Bangladesh</p>
+                            </div>
+                            <div class="col-md-4">
+                                <img src="{{ asset('assets/images/logo/Dream-world-corporation.png') }}" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slide vertical-slide">
+                <div class="slide-content" style="background: #005a759e;height: 100vh;">
+
+                    <div class="container history">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img src="{{ asset('assets/images/logo/Dream-world-corporation.png') }}" class="history-img" alt="">
+                            </div>
+                            <div class="col-md-8">
+                                <h1 class="white">ECONOMIC REVOLUTION</h1>
+                                <p class="white">In olden times dating back to late sixties of the last century during the erstwhile Pakistan
+                                    period the ancestors of the present Directors of the Group started trading & contractual business on a small
+                                    scale at their native district Rajshahi situated at the northern part of Bangladesh</p>
+                            </div>
                         </div>
                     </div>
                 </div>
