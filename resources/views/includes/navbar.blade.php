@@ -27,8 +27,8 @@
                 <li class="nav-item  @yield('gallery')">
                     <a class="nav-link nav_item_design" href="{{ route('pages.gallery') }}">Gallery</a>
                 </li>
-                <li class="nav-item  @yield('lpg_station')">
-                    <a class="nav-link nav_item_design" href="">Career</a>
+                <li class="nav-item  @yield('career')">
+                    <a class="nav-link nav_item_design" href="{{ route('pages.career') }}">Career</a>
                 </li>
                 <li class="nav-item  @yield('contact')">
                     <a class="nav-link nav_item_design" href="">Contact Us</a>

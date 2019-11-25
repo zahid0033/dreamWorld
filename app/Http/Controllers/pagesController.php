@@ -21,4 +21,7 @@ class pagesController extends Controller
     public function gallery(){
         return view('pages.gallery');
     }
+    public function career(){
+        return view('pages.career');
+    }
 }

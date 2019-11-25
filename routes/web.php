@@ -16,3 +16,4 @@ Route::get('/about', 'pagesController@about')->name('pages.about');
 Route::get('/ourCompany', 'pagesController@ourCompany')->name('pages.ourCompany');
 Route::get('/ourProducts', 'pagesController@ourProducts')->name('pages.ourProducts');
 Route::get('/gallery', 'pagesController@gallery')->name('pages.gallery');
+Route::get('/career', 'pagesController@career')->name('pages.career');
