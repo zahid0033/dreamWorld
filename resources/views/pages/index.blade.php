@@ -223,7 +223,7 @@
                         <div class="row">
                             <div class="col-md-8">
                                 <h1 class="white">Our History</h1>
-                                <p class="white">In olden times dating back to late sixties of the last century during the erstwhile Pakistan
+                                <p class="white text-justify">In olden times dating back to late sixties of the last century during the erstwhile Pakistan
                                     period the ancestors of the present Directors of the Group started trading & contractual business on a small
                                     scale at their native district Rajshahi situated at the northern part of Bangladesh</p>
                             </div>
@@ -243,8 +243,8 @@
                                 <img src="{{ asset('assets/images/logo/Dream-world-corporation.png') }}" class="history-img" alt="">
                             </div>
                             <div class="col-md-8">
-                                <h1 class="white">ECONOMIC REVOLUTION</h1>
-                                <p class="white">In olden times dating back to late sixties of the last century during the erstwhile Pakistan
+                                <h1 class="white text-right">ECONOMIC REVOLUTION</h1>
+                                <p class="white text-justify">In olden times dating back to late sixties of the last century during the erstwhile Pakistan
                                     period the ancestors of the present Directors of the Group started trading & contractual business on a small
                                     scale at their native district Rajshahi situated at the northern part of Bangladesh</p>
                             </div>

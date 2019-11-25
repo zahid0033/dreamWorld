@@ -13,3 +13,4 @@
 
 Route::get('/', 'pagesController@index')->name('pages.index');
 Route::get('/about', 'pagesController@about')->name('pages.about');
+Route::get('/ourCompany', 'pagesController@ourCompany')->name('pages.ourCompany');
