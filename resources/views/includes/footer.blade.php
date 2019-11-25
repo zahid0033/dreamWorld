@@ -64,15 +64,12 @@
 
     </div>
 
-
-
-
 <br/>
 <div class="container">
     <div class="row">
         <div class="col-md-12 text-center">
             <a href="http://setcolbd.com/" target="_blank"><img src="{{ asset('assets/images/logo/ash-color-footer.png') }}" alt="setcolbd" style="width: 35%;"></a>
-            <p><b>&copy; All Rights Reserved <span style="color: #ef4523">Dream LPG BD LTD.</span> || Developed by <a href="http://setcolbd.com/" target="_blank" style="text-decoration: none;font-family: cursive;color: rgb(65, 170, 225);">SETCOLBD</a></b></p>
+            <p><b>&copy; All Rights Reserved <span style="color: #3853a4">Dream World Corporation</span> || Developed by <a href="http://setcolbd.com/" target="_blank" style="text-decoration: none;font-family: cursive;color: rgb(65, 170, 225);">SETCOLBD</a></b></p>
         </div>
     </div>
 </div>

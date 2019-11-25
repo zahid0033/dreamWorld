@@ -15,4 +15,10 @@ class pagesController extends Controller
     public function ourCompany(){
         return view('pages.ourCompany');
     }
+    public function ourProducts(){
+        return view('pages.ourProducts');
+    }
+    public function gallery(){
+        return view('pages.gallery');
+    }
 }

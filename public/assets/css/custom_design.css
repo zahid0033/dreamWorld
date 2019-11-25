@@ -11,8 +11,8 @@ body {
     text-transform: uppercase;
     font-size: 4em;
 }
-.mar-top-72{
-    margin-top: 72px;
+.mar-top-80{
+    margin-top: 80px;
 }
 .mar-top-3 {
     margin-top: 2.5em;
@@ -76,7 +76,7 @@ h1{
 
 /*   ********** nav start **********   */
 .logo{
-    width: 32%;
+    width: auto;
     height: 100%;
     -webkit-filter: drop-shadow(5px 5px 5px #222);
     filter: drop-shadow(1px 1px 0px #ffffff);

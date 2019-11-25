@@ -1,6 +1,11 @@
 
-    <nav class="navbar fixed navbar-expand-lg navbar-light nav-bar bg-nav" style="height: 70px">
-        <a href="{{ route('pages.index') }}" ><img class="logo" src="{{ asset('assets/images/logo/Dream-world-corporation.png') }}" alt="logo"/></a>
+    <nav class="navbar fixed navbar-expand-lg navbar-light nav-bar bg-nav" style="height: 80px">
+        <a href="{{ route('pages.index') }}">
+            <img class="logo" src="{{ asset('assets/images/logo/dream2.png') }}" alt="logo"/>
+            <span style="font-size: 17px;font-weight: 700;text-decoration: none;color: #1c4cda;">Dream World Corporation</span>
+        </a>
+
+
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -16,8 +21,11 @@
                 <li class="nav-item  @yield('ourCompany')">
                     <a class="nav-link nav_item_design" href="{{ route('pages.ourCompany') }}">Our Companies</a>
                 </li>
-                <li class="nav-item  @yield('lpg_station')">
-                    <a class="nav-link nav_item_design" href="">Gallery</a>
+                <li class="nav-item  @yield('ourProducts')">
+                    <a class="nav-link nav_item_design" href="{{ route('pages.ourProducts') }}">Our Products</a>
+                </li>
+                <li class="nav-item  @yield('gallery')">
+                    <a class="nav-link nav_item_design" href="{{ route('pages.gallery') }}">Gallery</a>
                 </li>
                 <li class="nav-item  @yield('lpg_station')">
                     <a class="nav-link nav_item_design" href="">Career</a>

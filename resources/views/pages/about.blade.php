@@ -2,7 +2,7 @@
 @section('title','About')
 @section('about','active_nav')
 @section('content')
-    <div class="mar-top-72">
+    <div class="mar-top-80">
         <img src="{{ asset('assets/images/random/banner-2.jpg') }}" height="350" alt="">
     </div>
 
