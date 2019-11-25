@@ -79,8 +79,8 @@
                             <div class="col-md-3 col-sm-6 col-xs-12">
                                 <div class="aboutus">
 
-                                    <p class="aboutus-text">Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in.</p>
-                                    <p class="aboutus-text">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem</p>
+                                    <p class="aboutus-text text-justify">Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in.</p>
+                                    <p class="aboutus-text text-justify">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem</p>
 
                                 </div>
                             </div>
@@ -137,20 +137,11 @@
                         <div class="row companies">
 
                             <div class="col-md-4">
-                                <div class="mb-5">
+                                <div class="mb-5" >
                                     <div class="row">
-                                        <div class="col-4 col-md-4"><img src="{{ asset('assets/images/logo/company1.png') }}" alt=""></div>
+                                        <div class="col-4 col-md-4"><img src="{{ asset('assets/images/logo/logo2.png') }}" alt=""></div>
                                         <div class="col-8 col-md-8">
-                                            <span class="title">Pixel Engineering & Consultancy LTD.</span>
-                                            <p>Dream world corporation is the largest the company </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="mb-5">
-                                    <div class="row">
-                                        <div class="col-4 col-md-4"><img src="{{ asset('assets/images/logo/Dream-Multi-fabs-ltd.png') }}" alt=""></div>
-                                        <div class="col-8 col-md-8">
-                                            <span class="title">Dream Multi Fabs ltd.</span>
+                                            <span class="title"><a href="http://dreamlpg.com/">Dream LPG BD.</a></span>
                                             <p>Dream world corporation is the largest the company </p>
                                         </div>
                                     </div>
@@ -158,9 +149,18 @@
 
                                 <div class="mb-5">
                                     <div class="row">
+                                        <div class="col-4 col-md-4"><img src="{{ asset('assets/images/logo/Dream-Multi-fabs-ltd.png') }}" alt=""></div>
+                                        <div class="col-8 col-md-8">
+                                            <span class="title"><a href="{{ route('pages.dreamMultiFabs') }}">Dream Multi Fabs ltd.</a></span>
+                                            <p>Dream world corporation is the largest the company </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mb-5">
+                                    <div class="row">
                                         <div class="col-4 col-md-4"><img src="{{ asset('assets/images/logo/company2.png') }}" alt=""></div>
                                         <div class="col-8 col-md-8">
-                                            <span class="title">Dream Steel Bd.</span>
+                                            <span class="title"><a href="{{ route('pages.dreamSteel') }}">Dream Steel Bd.</a></span>
                                             <p>Dream world corporation is the largest the company </p>
                                         </div>
                                     </div>
@@ -173,7 +173,7 @@
                                 <div class="text-center" style="margin-top: 6em">
                                     <img src="{{ asset('assets/images/logo/Dream-world-corporation.png') }}" style="width: 50%;" alt="">
                                     <div>
-                                        <span class="title">Dream World Corporation</span>
+                                        <span class="title" style="color: #4059a7">Dream World Corporation</span>
                                         <p>Dream world corporation is the largest the company </p>
                                     </div>
                                 </div>
@@ -185,16 +185,16 @@
                                 <div class="mb-5" style="text-align: right">
                                     <div class="row">
                                         <div class="col-8 col-md-8">
-                                            <span class="title">Dream LPG BD.</span>
+                                            <span class="title"><a href="{{ route('pages.dreamConversion') }}">Dream LPG & CNG Conversion Workshop</a></span>
                                             <p>Dream world corporation is the largest the company </p>
                                         </div>
-                                        <div class="col-4 col-md-4"><img src="{{ asset('assets/images/logo/logo2.png') }}" alt=""></div>
+                                        <div class="col-4 col-md-4"><img src="{{ asset('assets/images/logo/Dream-world-corporation-1.png') }}" alt=""></div>
                                     </div>
                                 </div>
                                 <div class="mb-5" style="text-align: right">
                                     <div class="row">
                                         <div class="col-8 col-md-8">
-                                            <span class="title">Dream Energy</span>
+                                            <span class="title"><a href="{{ route('pages.dreamEnergy') }}">Dream Energy</a></span>
                                             <p>Dream world corporation is the largest the company </p>
                                         </div>
                                         <div class="col-4 col-md-4"><img src="{{ asset('assets/images/logo/company4.png') }}" alt=""></div>
@@ -203,10 +203,12 @@
                                 <div class="mb-5" style="text-align: right">
                                     <div class="row">
                                         <div class="col-8 col-md-8">
-                                            <span class="title">Dream LPG & CNG Conversion Workshop</span>
+                                            <span class="title"><a href="{{ route('pages.pixelEngineering') }}">Pixel Engineering & Consultancy LTD.</a></span>
                                             <p>Dream world corporation is the largest the company </p>
                                         </div>
-                                        <div class="col-4 col-md-4"><img src="{{ asset('assets/images/logo/Dream-world-corporation-1.png') }}" alt=""></div>
+                                        <div class="col-4 col-md-4">
+                                            <img src="{{ asset('assets/images/logo/company1.png') }}" alt="">
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -243,10 +245,36 @@
                                 <img src="{{ asset('assets/images/logo/Dream-world-corporation.png') }}" class="history-img" alt="">
                             </div>
                             <div class="col-md-8">
-                                <h1 class="white text-right">ECONOMIC REVOLUTION</h1>
-                                <p class="white text-justify">In olden times dating back to late sixties of the last century during the erstwhile Pakistan
-                                    period the ancestors of the present Directors of the Group started trading & contractual business on a small
-                                    scale at their native district Rajshahi situated at the northern part of Bangladesh</p>
+                                <h1 class="white text-right">Brands We Offer</h1>
+                                <div class="banner">
+                                    <div class="owl-carousel owl-theme " id="carousel02">
+                                        <div class="item">
+
+                                                <img src="{{asset('assets/images/logo/company1.png')}}" alt="">
+
+                                        </div>
+                                        <div class="item">
+
+                                                <img src="{{asset('assets/images/logo/company4.png')}}" alt="">
+
+                                        </div>
+                                        <div class="item">
+
+                                                <img src="{{asset('assets/images/logo/company1.png')}}" alt="">
+
+                                        </div>
+                                        <div class="item">
+
+                                                <img src="{{asset('assets/images/logo/company4.png')}}" alt="">
+
+                                        </div>
+                                        <div class="item">
+
+                                                <img src="{{asset('assets/images/logo/company1.png')}}" alt="">
+
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -326,6 +354,29 @@
                 },
                 1000:{
                     items:1
+                }
+            }
+        });
+        $('#carousel02').owlCarousel({
+            rtl:false,
+            loop:true,
+            autoplay: true,
+            dots: false,
+            autoPlay:100,
+            margin:10,
+            nav:false,
+            animateOut: 'fadeOut',
+            animateIn: 'fadeIn',
+            // navText:  ['<span class="fas fa-chevron-left fa-2x"></span>','<span class="fas fa-chevron-right fa-2x"></span>'],
+            responsive:{
+                0:{
+                    items:1
+                },
+                600:{
+                    items:2
+                },
+                1000:{
+                    items:4
                 }
             }
         });

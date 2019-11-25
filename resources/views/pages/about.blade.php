@@ -2,8 +2,9 @@
 @section('title','About')
 @section('about','active_nav')
 @section('content')
-    <div class="mar-top-80">
-        <img src="{{ asset('assets/images/random/banner-2.jpg') }}" height="350" alt="">
+    <div class="mar-top-100">
+        <img src="{{ asset('assets/images/random/banner-2.jpg') }}" height="400" alt="">
+        <span class="top_banner_text">About Us</span>
     </div>
 
     <div class="container mt-5">

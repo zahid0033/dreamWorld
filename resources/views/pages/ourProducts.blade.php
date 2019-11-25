@@ -2,10 +2,10 @@
 @section('title','Our Products')
 @section('ourProducts','active_nav')
 @section('content')
-    <div class="mar-top-80 mb-5">
+    <div class="mar-top-100 mb-5">
         <div class="row">
             <div class="col-md-12">
-                <img src="{{ asset('assets/images/random/slider-3.jpg') }}" height="400" alt="">
+                <img src="{{ asset('assets/images/random/our-products.png') }}" height="400" alt="">
             </div>
         </div>
     </div>

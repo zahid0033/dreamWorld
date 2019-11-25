@@ -1,8 +1,8 @@
 
-    <nav class="navbar fixed navbar-expand-lg navbar-light nav-bar bg-nav" style="height: 80px">
+    <nav class="navbar fixed navbar-expand-lg navbar-light nav-bar bg-nav" style="height: 100px">
         <a href="{{ route('pages.index') }}">
-            <img class="logo" src="{{ asset('assets/images/logo/dream2.png') }}" alt="logo"/>
-            <span style="font-size: 17px;font-weight: 700;text-decoration: none;color: #1c4cda;">Dream World Corporation</span>
+            <img class="logo" src="{{ asset('assets/images/logo/dreamSmall.png') }}" alt="logo"/>
+            <span style="font-size: 20px;font-weight: 800;text-decoration: none;color: #1c4cda;font-family: cursive;">Dream World Corporation</span>
         </a>
 
 
@@ -31,7 +31,7 @@
                     <a class="nav-link nav_item_design" href="{{ route('pages.career') }}">Career</a>
                 </li>
                 <li class="nav-item  @yield('contact')">
-                    <a class="nav-link nav_item_design" href="">Contact Us</a>
+                    <a class="nav-link nav_item_design" href="{{ route('pages.contact') }}">Contact Us</a>
                 </li>
 
 

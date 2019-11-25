@@ -2,10 +2,11 @@
 @section('title','Career')
 @section('career','active_nav')
 @section('content')
-    <div class="mar-top-80 mb-5">
+    <div class="mar-top-100 mb-5">
         <div class="row">
             <div class="col-md-12">
                 <img src="{{ asset('assets/images/random/whyus.jpg') }}" height="400" alt="">
+                <span class="top_banner_text">Career</span>
             </div>
         </div>
     </div>

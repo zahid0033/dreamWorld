@@ -7,12 +7,21 @@ body {
 .white{
     color: #ffffff;
 }
+.top_banner_text{
+    position: absolute;
+    font-size: 4em;
+    top: 40%;
+    left: 10%;
+    transform: translate(-10%, -40%);
+    font-weight: 800;
+    letter-spacing: 5px;
+}
 .title{
     text-transform: uppercase;
     font-size: 4em;
 }
-.mar-top-80{
-    margin-top: 80px;
+.mar-top-100{
+    margin-top: 100px;
 }
 .mar-top-3 {
     margin-top: 2.5em;
@@ -414,13 +423,15 @@ h1{
 /*   ********** home sister start **********   */
 .companies img{
     width: 100%;
-    height: 100%;
-    -webkit-filter: drop-shadow(1px 1px 1px #000);
-    filter: drop-shadow(0px 0px 0px #000000);
+    height: 60%;
+
 }
 .companies span{
     font-size: 15px;
     font-weight: 700;
+}
+.companies span a{
+    text-decoration: none;
 }
 /*   ********** home sister end **********   */
 /*   ********** home owner start **********   */
@@ -533,7 +544,7 @@ color: black;;
     border-radius: 5px;
     line-height: 22px;
     background-color: transparent;
-    border:2px solid #CC6666;
+    border:2px solid #2b60fb;
     transition: all 0.3s;
     padding: 13px;
     margin-bottom: 15px;
@@ -553,7 +564,7 @@ textarea {
 .submit {
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
     width: 100%;
-    background:#f04823;
+    background:#3a55a5;
     border-radius:5px;
     border:0;
     cursor:pointer;
@@ -565,7 +576,7 @@ textarea {
     margin-top:-4px;
     font-weight:700;
 }
-.submit:hover { background:#CC4949; }
+.submit:hover { background:#092d96; }
 /*   Contact Form   */
 .contact_list{
 
@@ -589,7 +600,7 @@ textarea {
 .contact_list ul li span i{
     width: 70px;
     height: 30px;
-    color: #f04823;
+    color: #2b60fb;
     padding: 6px;
     text-shadow: 1px 1px 1px #000000;
 }

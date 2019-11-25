@@ -2,10 +2,11 @@
 @section('title','About')
 @section('gallery','active_nav')
 @section('content')
-    <div class="mar-top-80 mb-5">
+    <div class="mar-top-100 mb-5">
         <div class="row">
             <div class="col-md-12">
                 <img src="{{ asset('assets/images/random/banner-2.jpg') }}" height="400" alt="">
+                <span class="top_banner_text">Gallery</span>
             </div>
         </div>
     </div>
